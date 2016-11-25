@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+
+<script>
+
+function edit_Ptag_By_Id (){
+  document.getElementById("demo").innerHTML = "Edited Paragraph tag by Id";
+  }
+
+</script>
+
+<script>
+
+function bdate(){
+  var bdate_v = new Date();
+  document.getElementById("date").innerHTML = bdate_v;
+}
+
+</script>
+</head>
+<body>
+
+<h1>Paragrah Tag and HTML Button</h1>
+
+<p id="demo">Paragraph Text</p>
+
+<button type="button" onclick="edit_Ptag_By_Id()">Edit Paragraph Text</button>
+
+<button id ="date" type="button" onclick="bdate()">Click</button>
+
+</body>
+</html>
