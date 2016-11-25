@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>JS Date Functions</title>
+<meta charset="utf-8">
+<link href="default.css" rel="stylesheet">
+<script src="date_fcns.js"></script>
+<script src="echo_Data.js"></script>
+</head>
+<body>
+<h1>JS Demonstrations</h1>
+
+<p id="demo">Original Source paragraph text</p>
+
+<button id="demo" class="dbutton" type="button" onclick="edit_ptag()"><span>Click to Change</span></button>
+
+<button id="bdate" class="dbutton" type="button" onclick="bdate()"><span>Unformatted Date</span></button>
+
+<button id="gFYdate" class="dbutton" type="button" onclick="gFYdate()"><span><span>getFullYear</span></button>
+
+<button id="gDdate" class="dbutton" type="button" onclick="gDdate()"><span>getDay</span></button>
+
+<button id="gdate" class="dbutton" type="button" onclick="gdate()"><span>getDate</span></button>
+
+<button id="gMonth" class="dbutton" type="button" onclick="gMonth()"><span>get Month</span></button>
+
+<button id="gHours" class="dbutton" type="button" onclick="gHours()"><span>Get Hours</span></button>
+
+<button id="reset" class="dbutton" type="button" onclick="reset()"><span>Reset</span></button>
+
+<br>
+
+<h1>Address Book</h1>
+<p>The following object is will be an address book. It is not designed correctly
+just yet. Currently the button type receives the data and echos it to a p tag.
+</p>
+
+<form id ="frm1" action="address_book.js" method="get">
+    <fieldset>
+      <legend>Address Book</legend>
+      <label>First Name:</lable>
+      <input type="text" name="firstname" value="fname"><br>
+      <label>Last Name:</label>
+      <input type="text" name="lastname" value="lname"><br>
+      <input type="submit" value="Submit"><input type="reset"><br>
+      <button type="button" onclick="echoData()">Echo form data</button>
+    </fieldset>
+</form>
+
+
+<p id="para">Data Contents</p>
+
+
+</body>
+</html>

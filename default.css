@@ -1,0 +1,29 @@
+.dbutton {
+  background-color:#008CBA;
+  color:white;
+  border:none;
+  border-radius:4px;
+  padding: 10px 25px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size: 16px;
+  margin:auto;
+}
+
+.dbutton:hover {
+  background-color:white;
+  color:#008CBA;
+  border-color:#A;
+  border: 3px #008CBA solid;
+  -webkit-transition-duration: .4s;
+  transition-duration: .4s;
+  box-shadow: 0 8px 4px 0 rgb(204,204,204);
+}
+
+.dbutton span:after {
+  content: ">>";
+  padding-left:10px;
+  color:#008CBA;
+  transition: .5s;
+}
